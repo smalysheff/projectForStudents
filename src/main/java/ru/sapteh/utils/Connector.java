@@ -10,6 +10,10 @@ public class Connector {
     private static final String USER = "root";
     private static final String PASSWORD = "9874123";
 
+    private Connector () {
+
+    }
+
     public static Connection getInstance() {
         Connection connection = null;
         try {
